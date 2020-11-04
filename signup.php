@@ -12,7 +12,7 @@ include_once 'includes/dbh.inc.php'; ?>
 <body>
     <div class="sign-container">
     <header>
-         <h2>User Registration Cuea Library</h2>
+         <h2>User Registration UON Library</h2>
     </header>
         <form action="includes/signup.inc.php" method="POST">
         <label for="registration number">Registration Number</label>
