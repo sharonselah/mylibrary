@@ -1,0 +1,121 @@
+a, *{
+    text-decoration: none;
+}
+body{
+    background-color: rgba(233, 231, 231, 0.712);
+    background-image: url(image1.jpg);
+}
+.container, .sign-container, .admin-container{
+    width: 25%;
+    margin: auto;
+    height: 60vh; 
+    border: black 1px solid;
+    text-align: center;
+    padding: 10px;  
+    margin-top: 100px;
+    background-color: white;
+    
+}
+.container header{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+header h2{
+    margin-bottom: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+form label{
+    padding: 10px 0;
+}
+form p{
+    text-align: right;
+}
+form p a {
+    text-decoration: none;
+    color: gray;
+}
+
+form .button{
+    width: 50%;
+    border-radius: 30px;
+    margin: auto;
+}
+form input{
+    height: 5vh;
+    border: none;
+    background-color: rgb(206, 202, 202);
+}
+.button{
+    height: 7vh;
+    background-color: rgba(0, 98, 255, 0.63);
+    font-size: 15px;
+}
+.sign{
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+     
+}
+.sign a{
+    color: blue;
+}
+span{
+    font-weight: bold;
+}
+.sign-container{
+    height: 100vh;
+    margin-top: 50px;
+    
+}
+.sign-container header{
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+.sign-container .button{
+    margin-top: 30px;
+}
+.sign-container label{
+    font-size: 18px;
+}
+
+/*admin */
+
+.admin-container{
+    width: 25%;
+    margin: auto;
+    height: 60vh; 
+    border: black 1px solid;
+    text-align: center;
+    padding: 10px;  
+    margin-top: 100px;
+    background-color: white;
+    
+}
+ 
+ul{
+    margin: 0;
+    padding:0;
+   
+}
+
+li{
+    margin-bottom: 10px;
+    padding: 10px 0px; 
+    background-color:rgba(218, 218, 218, 0.315) ;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.294); 
+   
+}
+li a{
+    color: black; 
+    font-size: 18px;
+   
+}
+li:hover{
+    background-color: rgba(0, 0, 255, 0.233);
+}
