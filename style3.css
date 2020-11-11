@@ -1,36 +1,81 @@
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-  }
+
+
+
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  height: 100vh;
+
+}
+.sidepanel{
+  padding-top: 50px;
+  width: 15%;
+  background-color: rgba(0, 0, 255, 0.24);
+  display: flex;
+  flex-direction: column;
+}
+.sidepanel p{
+  color: black;
+  font-size: 20px;
+border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+ 
+}
+
+#mainpanel{
+  padding-top: 70px;
+  width: 85%; 
+  background-color: rgba(220, 20, 60, 0.267);
+}
+
+#mainpanel a{
   
-  #sidebar, #content {
-    height: 100%;
-    overflow:auto;
-    float:left;
-    transition: width .35s;
-  }
+  background-color: rgba(85, 16, 149, 0.507);
+  color: black;
+  padding: 1em 0.8em;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5%;
+  margin: 1em 1em; 
+ 
+
+}
+
+.fixed a{
+  margin: 0em 0em; 
+}
+#mainpanel table{
+  margin-top: 20px;
+}
+
+.last{
+  border-collapse: collapse;
+  width: 100%;
   
-  #sidebar {
-    background:white;
-    width: 30%;
-  }
-  
-  #sidebar.collapsed {
-    width: 0;
-  }
-  
-  #sidebar.collapsed + #content {
-    width: 100%;
-  }
-  
-  #content {
-    background:gray;
-    width: 70%;
-  }
-  
-  button {
-    width: 30px;
-    height: 30px;
-    background: black;
-  }
+}
+
+.last td, .last th {
+  border: 1px solid rgba(10, 10, 10, 0.472);
+  text-align: left;
+}
+
+.last th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #664caf2a;
+  color: rgba(0, 0, 0, 0.801);
+}
+.row{
+  padding-bottom:1em;
+  padding-top: 1em; 
+}
+
+ 
+
+

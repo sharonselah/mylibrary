@@ -32,7 +32,7 @@ if (isset($_POST['submit'])){
                     $_SESSION['userFirst']= $row['userFirst'];
                     $_SESSION['userLast']= $row['userLast'];
                     $_SESSION['userEmail']= $row['userEmail'];
-                    header ("Location: ../login.php?login=success");
+                    header ("Location: ../admin.php");
                     exit();
                    
                 }
